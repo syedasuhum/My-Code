@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block chain</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <link href="../stylesheet/style.css" rel="stylesheet">
+    </head>
+    <style>
+        top-left{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+  
+    font-family: "arial";
+    font-size: 3em;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80%;
+    animation: animtext 4s steps(80, end); 
+     transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+.line
+ {
+  height:3px;
+  border-width: 3px;
+  background-color:white;
+ }
+ .text-size{
+    font-size: x-large;
+    
+ }
+
+ 
+  
+  
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+} 
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.block {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.block img {vertical-align: middle;}
+
+.block .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+.card:hover {
+  box-shadow: 5px 5px 8px gray;
+}
+.card{
+  transition: 0.5s ease; 
+ 
+}
+  
+.card:hover{
+ transform: scale(1.0); /* zoom in the image upto 30% */  
+ cursor: pointer;  
+}
+
+.block:hover {
+ box-shadow: 5px 5px 8px gray;
+}
+
+.block{
+ transition: 0.5s ease;  
+}
+
+.block:hover{
+ transform: scale(1.0); /* zoom in the image upto 30% */  
+ cursor: pointer;  
+}
+
+
+    </style>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+            <img src="../images/bc5.jpg" width="100%"></div>
+            <div class="top-left">
+                <h1><strong>Block Chain</strong></h1>
+                
+
+                <h3>Lorem ipsum dolor sit amet, an his etiam torquatos. <br>
+                    Tollit soleat phaedrum te duo, eum cu recteque expetendis <br>neglegentur.</h3>
+               
+            </div>
+            
+        </div>
+        <div class="container mt-5">
+            <h1 class="text-center">Block Chain</h1>
+            <div class="row mt-3">
+                <div class="col-lg-6 col-md-6 col-12">
+                   <div class="text-size">
+                    Enterprises now more than ever have to build business resilience and ensure continuity in the 
+                    face of the situation. With renewed focus, enterprise need to re-imagine the way they work to stabilize and take control of their business.
+                     Withstand impact, forecast, respond rapidly, adapt and recover better for the future.
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <video width="320" height="240" controls>
+                        <source src="../images/vedio.mp4" type="video/mp4">
+                        
+                        
+                      </video>
+                </div>
+            </div>
+            
+</div>
+            
+                    <h2 class="text-center mt-5"><u>Case Study</u></h2>
+                 
+
+             <div class="container">
+                
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="card text-center mt-2">
+                            <div class="card-body">
+                                <img src="../images/bc1.jpg" width="100%">
+                                <h3 class="card-title text-center">Cryptography</h3>
+                                <p class="card-text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                </p>
+                                <a href="" class="btn btn-primary text-center">Know more</a>
+                            </div>
+                          </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="card text-center mt-2">
+                                <div class="card-body">
+                                    <img src="../images/bc2.jpg" width="100%">
+                                    <h3 class="card-title text-center">Decentralization</h3>
+                                    <p class="card-text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    </p>
+                                    <a href="" class="btn btn-primary">Know more</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="card text-center mt-2">
+                                <div class="card-body">
+                                    <img src="../images/bc3.jpg" width="100%">
+                                    <h3 class="card-title text-center">Bitcoin</h3>
+                                    <p class="card-text justify-content-center">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    </p>
+                                    <a href="" class="btn btn-primary" style="position: center;">Know more</a>
+                                </div>
+                              </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+             
+
+                <h2 class="text-center mt-5"><u>What's New</u></h2>
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="card text-center mt-2">
+                                <div class="card-body">
+                                    <img src="../images/bc6.jpg" width="100%">
+                                    <h3 class="card-title text-center">Cryptocurrency</h3>
+                                    <p class="card-text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    </p>
+                                    <a href="" class="btn btn-primary text-center">Know more</a>
+                                </div>
+                              </div> 
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="block mt-3">
+                            <img src="../images/bc7.jpeg" width="100%">
+                            
+                             <div class="content">
+                              
+                               <p>Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+                                    </div>
+                                </div>
+                            
+                            <div class="block mt-3">
+                                <img src="../images/bc7.png" width="100%">
+                                
+                                 <div class="content">
+                                  
+                                   <p>Lorem ipsum dolor sit amet, an his etiam torquatos.</p>
+                                        </div>
+                                    </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="card text-center mt-2">
+                                <div class="card-body">
+                                    <img src="../images/bc4.png" width="100%">
+                                    <h3 class="card-title text-center">Ethernity chain</h3>
+                                    <p class="card-text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    </p>
+                                    <a href="" class="btn btn-primary text-center">Know more</a>
+                                </div>
+                              </div> 
+                        </div>
+                    </div>
+                </div>
+    </body>
+    </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Health Library</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link href="../stylesheet/stylesheet.css" rel="stylesheet" />
+        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="letter">
+            <div class="mytab1">
+                <button class="mytab1links"  onclick="openCitys(event, 'Visit')"><img class="my-card3-img" src="../images/health.png" width="120px"  /></button>
+                <button class="mytab1links" onclick="openCitys(event, 'Request')"><img class="my-card3-img" src="../images/druge.png" width="120px"  /></button>
+                <button class="mytab1links" onclick="openCitys(event, 'Documents')"><img class="my-card3-img" src="../images/test.png" width="120px"  /></button>
+              </div>
+
+
+              <div id="Visit" class="mytabcontent1 mt-5">
+                <h3 class="herr">Health Info</h3>
+                <p>Check your last Visit
+                  <ul><li>Date : 20/07/2022</li>
+                    <li>Time : 2.30pm</li>
+                    <li>Reason for Visit : Fewer and Cold</li>
+                   <li> Doctor name : Dr. Ann</li>
+                </ul></p>
+              </div>
+              
+              <div id="Request" class="mytabcontent1 mt-5">
+                <h3>Request Record</h3>
+                <p><ul><li>Splecialist Conultation report</li>
+                  <li>Current medication list</li>
+                  <li>Discharge summary</li>
+                 <li> Test and Operation report</li>
+              </ul>
+              
+                </p> 
+              </div>
+              
+              <div id="Documents" class="mytabcontent1 mt-5">
+                <h3>Documents</h3>
+                <p><ul><li>Patient Details</li>
+                  <li>Id Proof</li>
+                  <li>Patient Summary</li>
+                 <li>Payments and Reports </li>
+              </ul></p>
+              </div>
+              
+              <script src="../javascript/js.js">
+              
+              </script>
+        </div>
+        </div>
+
+        </body>
+        </html>

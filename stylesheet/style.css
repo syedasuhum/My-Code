@@ -1,0 +1,734 @@
+.top-left{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+  
+    font-family: "arial";
+    font-size: 3em;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80%;
+    animation: animtext 4s steps(80, end); 
+     transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+.line
+ {
+  height:3px;
+  border-width: 3px;
+  background-color:white;
+ }
+ .text-size{
+    font-size: x-large;
+    
+ }
+
+ 
+  
+  /*h2{
+    color: black; 
+ font-family: "arial";
+ font-size: 3em;
+ margin: 10px 0 0 10px;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 100%;
+ animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}*/
+@keyframes animtext { 
+ from {
+     width: 0;
+    transition: all 2s ease-in-out;
+ } 
+} 
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.block {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.block img {vertical-align: middle;}
+
+.block .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+.card:hover {
+  box-shadow: 5px 5px 8px gray;
+}
+.card{
+  transition: 0.5s ease; 
+ 
+}
+  
+.card:hover{
+ transform: scale(1.0); /* zoom in the image upto 30% */  
+ cursor: pointer;  
+}
+
+.block:hover {
+ box-shadow: 5px 5px 8px gray;
+}
+
+.block{
+ transition: 0.5s ease;  
+}
+
+.block:hover{
+ transform: scale(1.0); /* zoom in the image upto 30% */  
+ cursor: pointer;  
+}
+
+
+
+/*apply job*/
+
+.card1:hover {
+box-shadow: 5px 5px 8px gray;
+    
+}
+
+.card1{
+transition: 0.5s ease;  
+background-color: #0e96f6;
+      
+text-size-adjust: 10px;
+color: white;
+padding-top: 10px;
+padding-left: 30px;
+padding-bottom: 30px;
+}
+      
+.card1:hover{
+ transform: scale(1.0); /* zoom in the image upto 30% */  
+ cursor: pointer;  
+}
+    
+
+      
+          /*.btn{
+           color: white;
+            padding-top: 0px;
+            
+            font-size: larger;
+          }
+          .btn:hover{
+          color: #0e96f6;
+          }*/
+
+
+          .card2:hover {
+            box-shadow: 5px 5px 8px gray;
+          }
+          .card2{
+            transition: 0.5s ease;  
+            background-color: #0e96f6;
+            
+            text-size-adjust: 10px;
+            color: white;
+            padding-top: 10px;
+           padding-left: 30px;
+           padding-bottom: 10px;
+           
+          
+            }
+            
+            .card2:hover{
+            transform: scale(1.0); /* zoom in the image upto 30% */  
+            cursor: pointer;  
+            }
+            .applybtn{
+              background-color: #ffff;
+              color:blue;
+              cursor: pointer;
+            }
+            .applybtn:hover{ 
+             
+             background-color: #0e96f6;
+             color: #f1f1f1;
+            }
+
+            .my-card2-img {
+ 
+              border-radius: 110%;
+              margin-top:30px;
+              margin-left:70px;
+              border-style:solid;
+              border-color: #444;
+              border-width:1px ;
+              color: #ffff;
+              background-color: #0e96f6;
+              
+             
+            }
+
+            .ter{
+              margin-left: 100px;
+              
+              margin-top: 20px;
+            }
+            .ter:hover{
+              color: #0e96f6;
+            }
+            .my-card2-img:hover{
+              transform: scale(1.0); /* zoom in the image upto 30% */  
+              cursor: pointer; 
+              background-color: light;
+
+              } 
+              .my-card2-img {
+                box-shadow: 5px 5px 8px gray;
+              }
+              .my-card2-img:hover {
+                box-shadow: 5px 5px 8px #0e96f6;
+              }                         
+              .card3:hover {
+                box-shadow: 5px 5px 8px gray;
+              }
+              .card3{
+                transition: 0.5s ease; 
+                background:#0e96f6;
+               color: #ffff;
+              }
+                
+              .card3:hover{
+               transform: scale(1.0); /* zoom in the image upto 30% */  
+               cursor: pointer;  
+              }
+              * {
+                box-sizing: border-box;
+              }
+              
+              body {
+                font-family: Arial;
+                font-size: 17px;
+              }
+              
+              .container {
+                position: relative;
+                max-width: 95%;
+                margin: 0 auto;
+               
+              }
+              
+              .footerServ{
+                margin-left: 15%;
+                margin-top: 10%;
+                color:black;
+              }   
+              .Contact {
+                margin-left: 15%;
+                margin-top: 2%;
+                color:black;
+
+              } 
+              
+#int{
+  background-image:  url(../images/intern.jpg);
+  background-position: auto;
+  background-repeat: no-repeat ;
+  padding: 15px;
+}
+
+              #exp{
+                background-image:  url(../images/exp1.png);
+          background-position: auto;
+          background-repeat: no-repeat ;
+          padding: 15px;
+              }
+
+              #gad{
+                background-image:  url(../images/grad\ .png);
+          background-position: auto;
+          background-repeat: no-repeat ;
+          padding: 15px;
+              }
+              #textsize{
+               height: 40px;
+               font-size: 12pt;
+               font-family: Arial, Helvetica, sans-serif;
+               background-color: none;
+              }
+              #sidesize{
+                height: 50px;
+                font-size: xx-large;
+                font-family: 'Times New Roman';
+              }
+/*working at toqsoft*/
+.topleft{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: white;            
+  font-family: "arial";
+  font-size: 3em;              
+  white-space: nowrap;
+  overflow: hidden;
+  width: 85%;
+  animation: animtext 4s steps(80, end); 
+  transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+.myborder{
+  padding: 5px;
+ background: #0e96f6;
+}
+
+.rtjborder{
+  padding: 40px;
+  background-color: #0e96f6;
+  color: white;
+}
+
+.head{
+ font-size: 20px;
+ padding: 5px;
+}
+
+/* explore experienced*/
+
+#searchbar{
+  margin-left: 10%;
+  padding:5px;
+  box-shadow: 5px 5px 8px gray;
+  width: 500px;
+  margin-bottom: 5px;
+}
+
+
+#myInput {
+background-image: url('/css/searchicon.png');
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}
+
+#list{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+.iteam{
+display: list-item;    
+} 
+
+.space{
+  margin-left: 10px;
+  color: #0e96f6;
+}
+.spaces{
+  margin-left: 90px;
+}
+
+
+/*Explore intership*/
+
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+  padding: 4px 12px;
+}
+.mycard{
+  border-radius: 20px;
+  border-color: #ffff;
+ 
+  border: #ffff;
+  background-color: #ffff;
+  color: #0e96f6;
+}
+.mycard:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.top{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  color: white;
+
+  font-family: "arial";
+  font-size: 3em;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  width: 85%;
+  animation: animtext 4s steps(80, end); 
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+.hir{
+  background: gray;
+}
+
+/* AI and DL*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.AI {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.AItext{
+  text-align: justify;
+  font-size: larger;
+}
+.AIpad{
+  padding-left: 80px;
+}
+
+
+/*employee services*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgba(160, 158, 158, 0.63);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color:black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  color: black;
+  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.show {display: block;}*/
+.main{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cardemp{ 
+  background-color:whitesmoke;
+  border-top: 6px solid #2196F3;
+  padding: 4px 12px;
+}
+.cardemp:hover{
+  box-shadow: 5px 5px 5px gray;
+}
+.leave{
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-right: 10px;
+}
+.mborder {
+  padding: 10px ;
+  background-color: #ddd;
+}
+#applea{
+  background-image:  url(../images/leave.png);
+background-position: auto;
+background-repeat: no-repeat ;
+padding: 15px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+
+/*user profile*/
+.my-card1-img {
+  height: 100%;
+  width: 65%;
+  border-radius: 50%;
+  margin-top:10px;
+  margin-left:30px;
+  
+  object-fit:cover;
+  
+  
+ 
+}
+.my-card1-img{
+  transition: 0.5s ease;  
+  }
+  
+  .my-card1-img:hover{
+  transform: scale(1.2); /* zoom in the image upto 30% */ 
+  cursor: pointer;  
+  }
+.pro{
+  padding-left: 80px;
+  padding-top: 40px;
+  align-items: center;
+ 
+}
+
+
+.my-card3-img {
+  height: 100%;
+  width: 65%;
+  border-radius: 50%;
+  margin-top:10px;
+  margin-left:30px;
+  
+  object-fit:cover;
+  
+  
+ 
+}
+.my-card3-img{
+  transition: 0.5s ease;  
+  }
+  
+  .my-card3-img:hover{
+  transform: scale(1.2); /* zoom in the image upto 30% */ 
+  cursor: pointer;  
+  }
+/*request for leave*/
+#reqlea{
+  background-image:  url(../images/req\ leav.png);
+background-position: auto;
+background-repeat: no-repeat ;
+padding: 15px;
+}
+
+/*Apply for Advance*/
+#appAdv{
+  background-image:  url(../images/adv2.jpg);
+background-position: auto;
+background-repeat: no-repeat ;
+padding: 15px;
+color: #ffff;
+}
+
+
+/*Automation*/
+.auto{
+  font-size: x-large;
+  text-align: justify;
+}
+.poll{
+  text-align: justify;
+
+}
+
+
+/*home Automation*/
+.cardh{
+  background-color: rgb(212, 207, 207);
+}
+.home {
+  background-color:rgba(235, 231, 231, 0.63);
+  border-left: 6px solid grey;
+  padding: 4px 12px;
+}
+
+/*lighting and appliance*/
+.mod{
+  
+  text-align: justify;
+  font-size: large;
+}
+
+/*Industrical Automation*/
+.bor{
+  box-shadow: 5px 5px 5px gray;
+  border-style: groove;
+  border-color: #2196F3;
+  padding: 10px 10px ;
+  text-align: justify;
+}
+
+/*Industry 1.0*/
+.indus{
+  box-shadow: 5px 5px 5px gray;
+  border-style: groove;
+  border-color: rgb(165, 156, 156);
+  padding: 25px 25px ;
+  text-align: justify;
+
+}
+/*Consumer Electronics*/
+.cons{
+ 
+  border-style:none;
+  border-color: gray;
+  padding: 10px 10px ;
+  text-align: justify;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.strategy{
+align-items: center;
+padding-left:90px ;
+padding-top:20px ;
+padding-right:90px ;
+padding-bottom: 20px;
+}
+
+/*healthCare in Automation*/
+.chall{
+  background-color: rgb(167, 164, 164);
+  padding: 20px;
+  color: #ffff;
+}  
+.health{
+  padding: 40px;
+}
+.patient{
+  
+  padding: 20px;
+}
+
+.phaborder{
+  border-radius: 20px;
+  background-color: #2196F3;
+  color: #ffff;
+  padding: 12px 12px 12px;
+  box-shadow: 5px 6px 6px grey;
+}
+.pat{
+padding-left: 120px;
+
+}
+
+/*digital library*/
+.filterDiv {
+  float: left;
+  background-color: none;
+  color: black;
+  width: 300px;
+  line-height: 150px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.dig{
+  padding: 5px;
+  
+  border-color: #ddd;
+}
+.dig:hover{
+  box-shadow: 5px 5px 5px gray;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#2196F3 ;
+  color: white;
+}
+
+.btn:active {
+  background-color:#2196F3;
+  color: white;
+}
+.slide{
+  color:white;
+}
+
+/*Employee Benefit*/
+.emp{
+  color: #2196F3;
+}
+.emp_card{
+  box-shadow: 5px 5px 5px grey;
+}
+.emp_card{
+  border-radius: 5px;
+  border-width: 2px;
+  
+}

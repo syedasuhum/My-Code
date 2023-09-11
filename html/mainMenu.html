@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+ <style>
+.sidepanel {
+  height: 100%; 
+  width:0; 
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+.sidepanel a:hover {
+  background-color: #24a0ed;
+  color: white;
+}
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #24a0ed;
+} 
+.headerssidenav{
+
+  background-color: #24a0ed;
+  color: white !important;;
+}
+
+.closebtn{
+
+  background: none !important;
+}
+.closebtn:hover{
+
+  color:black !important;
+}
+
+
+
+
+#searchbar{
+     margin-left: 10%;
+     padding:5px;
+     border-radius: 10px;
+     width: 230px;
+     margin-bottom: 5px;
+   }
+
+
+   #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.iteam{
+   display: list-item;    
+  } 
+
+   
+
+</style>
+</head>
+<body>
+    <div id="mySidepanel" class="sidepanel">
+        
+        <a class="closebtn" onclick="closeNav()" href="javascript:void(0)">&times;</a>
+        <input id="searchbar" onkeyup="search_iteam()" type="text"
+    name="search" placeholder="Search">
+
+      <ul id="list">
+        <li class="iteam"><a href="#" class="headerssidenav"><strong>Get care</strong></a></li>
+        <li class="iteam"><a href="onDemandVirtual.html"><i class="fa fa-video-camera p-1 faIconSize" aria-hidden="true"></i>On-demand Virtual visit</a></li>
+        <li class="iteam"><a href="#"><i class="fa fa-stethoscope p-1 faIconSize" aria-hidden="true"></i>eVisit</a></li>
+          <li class="iteam"><a href="#"><i class="fa fa-users p-1 faIconSize" aria-hidden="true"></i>View care team</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-location-dot p-1 faIconSize"></i>get care today</a></li>
+          <li class="iteam"><a href="#"><i class="fa-regular fa-calendar-check p-1 faIconSize"></i>schedule an appointment</a></li>
+          <li class="iteam"><a href="#" class="headerssidenav"><strong>Communication</strong></a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-message p-1 faIconSize"></i>Message Center</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-comment p-1 faIconSize"></i>Send a Message</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-envelope p-1 faIconSize"></i>Letters</a></li>
+          <li class="iteam"><a href="#" class="headerssidenav"><strong>My Records</strong></a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-virus-covid p-1 faIconSize"></i>My Covid-19 Info</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-clipboard-check p-1 faIconSize"></i> To do</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-calendar-plus faIconSize"></i>Appointment&Visits</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-flask p-1 faIconSize"></i>Test Results</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-capsules p-1 faIconSize"></i>Medications</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-clipboard-user p-1 faIconSize"></i>Health Summary</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-book-medical p-1 faIconSize"></i>Plan of care</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-shield-heart p-1 faIconSize"></i>Preventive care</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-clipboard-question p-1 faIconSize"></i>Questionaries</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-flask-vial faIconSize"></i>Upcoming test&Procedures</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-file-medical p-1 faIconSize"></i>Medical & family History</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-file-waveform p-1 faIconSize"></i>Health Data</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-book p-1 faIconSize"></i>Documents</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-file p-1 faIconSize"></i>Request Proxy access</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-flask p-1 faIconSize"></i>View all imaging</a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-clipboard-user p-1 faIconSize"></i>Patientwisdom</a></li>
+    
+           <li class="iteam"><a href="#" class="headerssidenav"><strong>Billing</strong></a></li>
+           <li class="iteam"><a href="#"><i class="fa-solid fa-wallet p-1 faIconSize"></i>Billing Summary</a></li>
+         <li class="iteam"><a href="#"><i class="fa-solid fa-money-bill-trend-up p-1 faIconSize"></i>Financial Assistance</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-calculator p-1 faIconSize"></i>Price estimaste</a></li>
+    
+          <li class="iteam"><a href="#" class="headerssidenav"><strong>Insurance</strong></a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-umbrella p-1 faIconSize"></i>Insurance Summary</a></li>
+          <li class="iteam"><a href="#" class="headerssidenav"><strong>Sharing</strong></a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-file-medical p-1 faIconSize"></i>Share my record</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-earth-americas p-1 faIconSize"></i>Share Everywhere</a></li>
+          <li class="iteam"><a href="#"><i class="fa-brands fa-edge-legacy p-1 faIconSize"></i>link my Accounts</a></li>
+          <li class="iteam"><a href="#" class="headerssidenav"><strong>Account Setting</strong></a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-user p-1 faIconSize"></i>Personal Info</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-paintbrush p-1 faIconSize"></i>Persoe</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-star p-1 faIconSize"></i>Change your shortcuts</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-gears p-1 faIconSize"></i>Communication Preference</a></li>
+          <li class="iteam"><a href="#"><i class="fa-solid fa-gear p-1 faIconSize"></i>other Preference</a></li>
+         <li class="iteam"><a href="#"><i class="fa-solid fa-house-chimney-user p-1 faIconSize"></i>back to my chart home</a></li>
+         <li class="iteam"><a href="#"><i class="fa-solid fa-person-circle-question p-1 faIconSize"></i>frequently asked questions</a></li>
+         <li class="iteam"><a href="#"><i class="fa-solid fa-hospital-user p-1 faIconSize"></i>Patient Privacy rights</a></li>
+       
+    
+          
+      </ul>
+       
+      </div>
+
+
+      <div class="container-fluid  ">
+        <div class="row ">
+          <div class="col-lg-1 col-md-4 col-12">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+           </div>
+           <div class="col-lg-11 col-md-6 col-12 ">
+
+
+            <div class="row mt-2">
+              
+                <div class="col-lg-3 col-md-6 col-12 healthRecordtopmenu"><a href=""><i class="fa fa-user-md p-1 faIconSize" aria-hidden="true"></i>Appointments</a></div>
+                <div class="col-lg-3 col-md-6 col-12 healthRecordtopmenu"><a href=""><i class="fa-solid fa-flask p-1 faIconSize"></i>Test results</a></div>
+                <div class="col-lg-3 col-md-6 col-12 healthRecordtopmenu"><a href=""><i class="fa fa-comments p-1 faIconSize" aria-hidden="true"></i>Message Center</a></div>
+                <div class="col-lg-3 col-md-6 col-12 healthRecordtopmenu"><a href=""><i class="fa fa-medkit p-1 faIconSize" aria-hidden="true"></i>Medications</a></div>
+            </div>
+           
+         
+           </div>
+          
+          </div>
+</div>
+
+
+
+          <script>
+          
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "300px";
+    }
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    } 
+          
+
+
+    function search_iteam() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('iteam');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+</script>
+
+      
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+  

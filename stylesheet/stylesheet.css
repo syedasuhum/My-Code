@@ -1,0 +1,708 @@
+/* bill css*/
+
+   
+  
+@media screen and(min-width: 200px){
+    .mycard {padding-top: 20px;}
+    .mycard a {font-size: 20px;}
+  }
+   
+  .bill{
+    color: #24a0ed;
+  }
+
+  .mycard{
+    box-shadow: 5px 10px whitesmoke;
+
+  }
+  .amount{
+    text-align: center;
+    size: 40px;
+  }
+  .billingPara p{
+
+
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+/* patient Services*/
+*{margin:0;padding:0;box-sizing: border-box;}
+
+
+   
+a:hover {
+    color: #247cff;
+  }
+  .nav-item{
+    font-weight: bold;
+  }
+.btn-primary{
+  color: white !important; 
+}
+.servlink li{
+  list-style-type: none;
+  text-align: right;
+}
+.contcus a{
+  color: white ;
+}
+.footerServ{
+  margin-left: 15%;
+  margin-top: 10%;
+  color:white;
+}
+hr{
+  width:50%;  
+}
+ul li{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+}
+ul li a:hover{
+
+  color:black;
+}
+.fa-chevron-circle-right{
+
+  color:white;
+}
+.fa-map-marker{
+  color:white;
+}
+.fa-envelope{
+
+  color:white;
+}
+.fa-volume-control-phone{
+
+  color:white;
+}
+
+.newNav{
+  margin:5px 5px;
+}
+
+
+.my-card {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: 0px 0px 8px;
+  margin-bottom: 28px;
+  border-radius: 35px 0;
+  overflow: hidden;
+  transition: .5s
+}
+
+.my-card:hover {
+  box-shadow: 0px 0px 8px blue;
+
+}
+.topnav a:hover {
+  background-color: skyblue;
+  color:blue;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+
+.my-card1-img {
+  height: 100%;
+  width: 50%;
+  border-radius: 50%;
+  margin-top:20px;
+  margin-left:70px;
+  
+  object-fit:cover;
+  
+  
+ 
+}
+.my-card1-img{
+  transition: 0.5s ease;  
+  }
+  
+  .my-card1-img:hover{
+  transform: scale(1.3); /* zoom in the image upto 30% */  
+  cursor: pointer;  
+  }
+
+  
+    
+  
+.my-card-body {
+  padding: 20px;
+  margin-bottom: 20px
+}
+
+.my-card-body h5 {
+  text-transform: capitalize;
+  line-height: 25px;
+  font-size: 25px
+}
+
+.my-card-body p {
+  margin: 10px 0;
+  color: black;
+}
+.my-card-btn {
+
+  padding: 10px 28px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 10px 0;
+  transition: .5s
+}
+
+.my-card-btn:hover {
+  color: blue;
+}
+
+
+/* letter CSS*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#24a0ed;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  
+  
+  .fa-star {
+    color:yellow;
+    
+    
+  }
+  .fa-bell{
+    color:red;
+    float: right;
+    size:30px;
+  }
+
+  /*Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #24a0ed;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+
+
+
+label {
+    font-size: 17px;
+    margin: 10px;
+}
+
+.appbtn{
+    margin-top: 12px
+   
+}
+/* talk to doctor*/
+.tabdesign{
+
+  
+  border-bottom:1px solid #24a0ed !important;
+  border:none;
+color:white;
+  margin: 20px 20px;
+
+}
+.nav-items>.active{
+
+  background-color: white !important;
+  border:none;
+  color:black !important;
+}
+
+
+/*Insurance*/
+.pl{
+  color:black;
+  float: inline-end;
+
+}
+
+
+/* download record*/
+/* Style the tab */
+.mytab {
+    overflow: hidden;
+    
+    background-color: #24a0ed;
+  }
+  
+  /* Style the buttons inside the tab */
+  .mytab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+  }
+  
+ 
+  .mytab a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #24a0ed;
+    display: block;
+  }
+  
+  
+  
+  
+  
+  /* Style the tab content */
+  .mytabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+
+
+  /* questionnaries*/
+  .ans{
+    float: right ;
+    float:center;
+    
+  }
+  .mycard{
+    box-shadow: 5px 10px whitesmoke;
+
+  }
+
+
+
+/* Frequently asked*/
+            
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+
+
+.mypanel {
+  padding: 0 18px;
+  display: none;
+  background-color:black;
+  overflow: hidden;
+}
+
+.actives, .accordion:hover {
+  background-color: #ccc; 
+}
+
+
+
+.accordion-button.collapsed {
+  background:#24a0ed;
+color:#ffffff;
+
+}
+
+.accordion-button::after {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+      transform: scale(.7) !important;
+
+    }
+    .accordion-button:not(.collapsed)::after {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%  23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+
+ }
+
+
+ /*Preregistration*/
+
+ .pre{
+  float: right;
+  color: #24a0ed;
+ }
+ .box{
+  box-shadow: 5px 5px 0px 0px whitesmoke;
+ }
+  
+ .line
+ {
+  height:2px;
+  border-width:0;
+  background-color:rgb(128, 226, 226);
+ }
+    
+
+/*looking for*/
+
+
+
+.main{
+  margin-bottom: 30px;
+  padding: 0px 10px;
+}
+.ter{
+  margin-left: 100px;
+  
+  margin-top: 20px;
+}
+
+
+.my-card2-img {
+ 
+  border-radius: 100%;
+  margin-top:20px;
+  margin-left:70px;
+  border-style:solid;
+  border-color: #444;
+  border-width:1px ;
+ 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container-fluid {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.container-fluid .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 98%;
+  padding: 20px;
+}
+
+.foot{
+ margin-bottom: 30px; 
+  color: #f2f2f2;
+}
+
+.cardsss{
+  
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #444;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.cardss{
+  background-color: #444;
+  color: #f2f2f2;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+
+
+
+.task{
+  
+  background-color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  height: 400px;
+}
+
+
+
+/*task3*/
+body, html {
+  height: 80%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/nat1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero2-text{
+  text-align: right;
+  position: absolute;
+  top: 15%;
+  left:75%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 10px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: black;
+}
+
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div {
+  background-color: rgb(82, 224, 136);
+  color: white;
+  
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+
+
+
+/*health library*/
+.alpha{
+  
+  border-radius: 5px;
+  width: 35px;
+  border-style: solid;
+  border-color: #555;
+  border-width:1px ;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 1px 1px;
+}
+
+.letter{
+  margin-left: 100px;
+}
+
+
+
+.my-card3-img {
+ 
+  border-radius: 100%;
+  margin-top:20px;
+  margin-left:70px;
+  border-style:solid;
+  border-color: #444;
+  border-width:1px ;
+  height: fit-content;
+ 
+}
+
+.num{
+  
+
+  border-radius: 5px;
+  width: 70px;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 1px 1px;
+
+}
+
+
+
+
+
+
+
+
+
+ .findProviderImg img {
+
+width: 150px;
+height: 150px;
+border: 1px solid black;
+background-size: cover;
+}
+
+.findProviderNav .nav-link,
+.findProviderNav>.nav-link {
+
+border-radius: 100%;
+border: 2px solid black;
+
+}
+
+.findProviderNav .nav-link.active,
+.findProviderNav .show>.nav-link {
+
+
+background: linear-gradient(#ffff, #24a0ed);
+
+
+border-radius: 100%;
+
+
+
+}
+
+.providerNav {
+display: flex;
+flex-wrap: wrap !important;
+margin: 50px 50px;
+list-style: none !important;
+}
+
+
+
+.nav-justified .findProviderImg,
+.nav-justified>.nav-link {
+
+flex-grow: 0 !important;
+text-align: center;
+flex-basis: auto;
+margin: 10px 10px;
+
+}
+
+.findProviderImg a {
+
+text-decoration: none;
+color: black;
+font-size: 16px;
+
+
+}
+.findProviderContent p{
+text-align: justify;
+
+}
+
+
+/*receipes*/
+.fa-sharp{
+  color:red;
+}
+
